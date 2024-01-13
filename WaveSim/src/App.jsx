@@ -14,6 +14,13 @@ const ResponsiveText = styled.p`
   }
 `;
 
+class Menu{
+    Menu()
+    {
+
+    }
+};
+
 function App() {
   const [count, setCount] = useState(0);
 

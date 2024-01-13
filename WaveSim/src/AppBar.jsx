@@ -11,6 +11,7 @@ import logo2 from "./assets/waveSim Logo2.png";
 import logo from "./assets/waveSim Logo4.png";
 
 function ButtonAppBar() {
+    
   return (
     <div id="appbar">
       <AppBar style={{ background: "rgba(255,255,255, 0.08)" }} wrap="true">
