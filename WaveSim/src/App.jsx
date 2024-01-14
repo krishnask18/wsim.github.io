@@ -16,12 +16,7 @@ function App() {
       <div>
         <ButtonAppBar wrap="true" />
       </div>
-      <br/>
-      <br/>
-
-      <div>
-        <Cardcomp  />
-      </div>
+        <Cardcomp />
     </div>
   );
 }

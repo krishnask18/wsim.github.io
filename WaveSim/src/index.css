@@ -8,3 +8,14 @@ body {
 #appbar{
   background: rgba(255,255,255, 0.2);
 }
+
+/* .signal{
+  position: absolute;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* width: "200px"; */
+  /* height: "200px"; */
+  /* transform: translate(0px, 80px); */
+  /* background: "red"; */
+  /* background-image: linear-gradient((to bottom left,#255959,20%, #021d21)); */
+/* } */
