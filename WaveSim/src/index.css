@@ -3,6 +3,7 @@ html, body {
 }
 body {
   background: linear-gradient(to bottom right,#254159,20%, #010f13);
+  
 }
 #appbar{
   background: rgba(255,255,255, 0.2);

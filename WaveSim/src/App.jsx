@@ -18,9 +18,9 @@ function App() {
       </div>
       <br/>
       <br/>
-      
+
       <div>
-        <Cardcomp />
+        <Cardcomp  />
       </div>
     </div>
   );
