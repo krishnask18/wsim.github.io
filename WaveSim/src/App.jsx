@@ -13,24 +13,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    
     <div>
-      <div style={{display:"flex",flexWrap:"wrap"}} >
-        
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
         <ButtonAppBar wrap="true" />
-       
       </div>
-      <div style={{display:"flex",flexWrap:"wrap"}}>
-        
-        <Cardcomp  />
-        
-        
-     
-        
-       
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <Cardcomp />
       </div>
     </div>
-   
   );
 }
 
