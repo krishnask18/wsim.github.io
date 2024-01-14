@@ -1,22 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
-const ResponsiveText = styled.p`
-  font-size: 16px;
+function MyComponent() {
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('sm'));
 
-  @media only screen and (max-width: 600px) {
-    font-size: 14px;
-  }
-`;
+  return <span>{`theme.breakpoints.up('sm') matches: ${matches}`}</span>;
+}
 
-const ResponsiveComponent = () => {
-  return (
-    <div>
-      <ResponsiveText>
-        This text size adjusts based on screen width.
-      </ResponsiveText>
-    </div>
-  );
-};
-
-export default ResponsiveComponent;
+export default MyComponent;

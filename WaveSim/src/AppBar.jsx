@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import logo2 from "./assets/waveSim Logo2.png";
 import logo from "./assets/waveSim Logo4.png";
+import MyComponent from "./Muiresponsive";
 
 function ButtonAppBar() {
     

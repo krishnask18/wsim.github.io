@@ -5,19 +5,32 @@ import { useState } from "react";
 import ButtonAppBar from "./AppBar";
 import Muiresponsive from "./Muiresponsive";
 import "./App.css";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import bgimg from "./assets/bgimg.jpg";
+import MyComponent from "./Muiresponsive";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
+    
     <div>
-      <div>
+      <div style={{display:"flex",flexWrap:"wrap"}} >
+        
         <ButtonAppBar wrap="true" />
+       
       </div>
-        <Cardcomp />
+      <div style={{display:"flex",flexWrap:"wrap"}}>
+        
+        <Cardcomp  />
+        
+        
+     
+        
+       
+      </div>
     </div>
+   
   );
 }
 
