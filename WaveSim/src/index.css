@@ -5,7 +5,7 @@ body {
   background: linear-gradient(to bottom right,#254159,20%, #010f13);
   
 }
- @media  (min-width: 50px) {  body  { width: 0.1em; font-size:0.1em;  } }
+ /* @media  (min-width: 50px) {  body  { width: 0.1em; font-size:0.1em;  } }
     @media (min-width: 100px) {  body  {   width: 0.1em; font-size:0.2em;  } }
     @media (min-width: 200px) {  body  {   width: 0.1em; font-size:0.4em;  } }
     @media (min-width: 300px) {  body  {   width: 0.1em; font-size:0.6em;  } }
@@ -23,7 +23,7 @@ body {
 	@media (min-width: 1500px) {  body  { width: 0.1em; font-size:3.0em;  } }
 	@media (min-width: 1500px) {  body  { width: 0.1em; font-size:3.2em;  } }
 	@media (min-width: 1600px) {  body  { width: 0.1em; font-size:3.4em;  } }
-	@media (min-width: 1700px) {  body  { width: 0.1em; font-size:3.6em;  } }
+	@media (min-width: 1700px) {  body  { width: 0.1em; font-size:3.6em;  } } */
 
 #appbar{
   background: rgba(255,255,255, 0.2);
