@@ -19,6 +19,7 @@ function App() {
       </div>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         <Cardcomp />
+        
       </div>
     </div>
   );
