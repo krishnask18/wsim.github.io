@@ -20,7 +20,7 @@ function App() {
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         <div>
           <Cardcomp
-            bgim="linear-gradient(to bottom right,rgba(79, 112, 65, 0.8), rgba(63, 87, 54, 0.8)),url(https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201201/20120126114103-0_0.jpg)"
+            bgim="linear-gradient(to bottom right,rgba(79, 112, 65, 0.8), rgba(63, 87, 54, 0.8)),url(../src/assets/CT_bgi.jpg)"
             title="Continuous Time Signals"
           />
         </div>
