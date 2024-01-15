@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Typography from "@mui/material/Typography";
 
-function Cardcomp() {
+function Cardcomp(props) {
   return (
     <div
       to="google.com"
@@ -15,7 +15,8 @@ function Cardcomp() {
         borderTopRightRadius: 20,
         borderTopLeftRadius: 20,
         backgroundImage:
-          "linear-gradient(to bottom right,rgba(37, 89, 89, 0.8), rgba(13, 39, 46, 0.8)),url(https://ak.picdn.net/shutterstock/videos/10656701/thumb/6.jpg?ip=300x420)",
+        props.bgim,
+        objectFit:"cover",
         width: "300px",
         backgroundRepeat: "no-repeat",
         height: "420px",
@@ -24,9 +25,9 @@ function Cardcomp() {
     >
       <Typography
         variant="h4"
-        style={{ color: "#e4e4e5", fontFamily: "Poppins" }}
+        style={{ color: "white", fontFamily: "Poppins" }}
         >
-        Hello
+        {props.title}
       </Typography>
         <br></br>
         <br></br>
