@@ -15,7 +15,7 @@ function ButtonAppBar() {
     
   return (
     <div id="appbar">
-      <AppBar style={{ background: "rgba(255,255,255, 0.08)" }} wrap="true">
+      <AppBar style={{ backgroundImage: "linear-gradient(to right,rgba(34, 63, 77, 1), rgba(1, 20, 28, 1))" }} wrap="true">
         <Toolbar>
           <img src={logo2} width={"64"} height={"64"} />
           <img src={logo} height={"64"} />

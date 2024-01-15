@@ -14,7 +14,7 @@ function Cardcomp(props) {
         borderBottomRightRadius: 20,
         borderBottomLeftRadius: 20,
         borderTopRightRadius: 20,
-        borderTopLeftRadius: 20,
+        borderTopLeftRadius: 20,    
         backgroundImage:
         props.bgim,
         objectFit:"cover",

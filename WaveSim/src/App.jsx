@@ -5,6 +5,7 @@ import { useState } from "react";
 import ButtonAppBar from "./AppBar";
 import Muiresponsive from "./Muiresponsive";
 import "./App.css";
+import "./index.css";
 import { Box, Typography } from "@mui/material";
 import bgimg from "./assets/bgimg.jpg";
 import MyComponent from "./Muiresponsive";
@@ -18,13 +19,13 @@ function App() {
         <ButtonAppBar wrap="true" />
       </div>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
-        <div>
+        <div >
           <Cardcomp
             bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
             title="Continuous Time Signals"
           />
         </div>
-        <div style={{transform:"translate(60px, 0px)"}}>
+        <div className="dt" style={{transform:"translate(60px, 0px)"}}>
           <Cardcomp
             bgim="linear-gradient(to bottom,rgba(15, 126, 94, 1), rgba(15, 126, 94, 0.5)),url(../src/assets/DT_bgi.jpg)"
             title="Discrete Time Signals"
