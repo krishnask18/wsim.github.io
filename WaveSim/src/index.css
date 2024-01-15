@@ -28,7 +28,9 @@ body {
 #appbar{
   background: rgba(255,255,255, 0.2);
 }
-
+.card-div {
+  font-family: "Poppins", sans-serif;
+}
 /* .signal{
   position: absolute;
   /* top: 50%; */

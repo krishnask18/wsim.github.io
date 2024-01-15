@@ -20,13 +20,13 @@ function App() {
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         <div>
           <Cardcomp
-            bgim="linear-gradient(to bottom right,rgba(79, 112, 65, 0.8), rgba(63, 87, 54, 0.8)),url(../src/assets/CT_bgi.jpg)"
+            bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
             title="Continuous Time Signals"
           />
         </div>
         <div style={{transform:"translate(60px, 0px)"}}>
           <Cardcomp
-            bgim="linear-gradient(to bottom right,rgba(15, 126, 94, 0.8), rgba(15, 126, 94, 0.8)),url(../src/assets/DT_bgi.jpg)"
+            bgim="linear-gradient(to bottom,rgba(15, 126, 94, 1), rgba(15, 126, 94, 0.5)),url(../src/assets/DT_bgi.jpg)"
             title="Discrete Time Signals"
           />
         </div>
