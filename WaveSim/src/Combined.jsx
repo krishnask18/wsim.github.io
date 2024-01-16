@@ -23,21 +23,20 @@ function CombinedAll() {
           <Cardcomp
             bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
             title="Continuous Time Signals"
+            description={
+              <div>
+                <div>
+                  {"\u25CF"} Tools for computation and visualisation of vaious
+                  domain transformations for<br></br>continuous time signals
+                </div>
+                <div>
+                  {"\u25CF"} Animations of convolution custom signals
+                </div>
+              </div>
+            }
           />
         </div>
         <div>
-          <Cardcomp
-            bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
-            title="Continuous Time Signals"
-          />
-        </div>
-        <div>
-          <Cardcomp
-            bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
-            title="Continuous Time Signals"
-          />
-        </div>
-        <div className="dt">
           <Cardcomp
             bgim="linear-gradient(to bottom,rgba(15, 126, 94, 1), rgba(15, 126, 94, 0.5)),url(../src/assets/DT_bgi.jpg)"
             title="Discrete Time Signals"

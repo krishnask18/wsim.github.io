@@ -32,20 +32,22 @@ function Cardcomp(props) {
         style={{ color: "white", fontFamily: "Poppins" }}
         >
         {props.title}
+                <hr style={{
+                  width:"250px", 
+                  height:"1.5px", 
+                  background:"white", 
+                  transform:"translate(0px, -10px)"}}/>
       </Typography>
-        <br></br>
-        <br></br>
-        {/* <br></br> */}
       <Typography
         style={{
           color: "#e4e4e5",
           fontFamily: "Poppins",
           fontSize: "17px",
           overflowWrap: "break-word",
+          transform:"translate(0px, 30px)"
         }}
         >
-        Set of tools for processing and computation of Continuous & Discrete
-        time Signals.Engineering disciplines such as electrical engineering have advanced the design, study, and implementation of systems involving transmission, storage, and manipulation of information.
+        {props.description}
       </Typography>
     </div>
         </div>
