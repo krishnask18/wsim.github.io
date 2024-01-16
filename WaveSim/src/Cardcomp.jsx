@@ -4,12 +4,14 @@ import './index.css'
 
 function Cardcomp(props) {
   return (
+    <div style={{borderStyle:"hidden", padding:25}}>
+
     <div
-      className="card-div"
-      onClick={() => {
-        location.href = "https://www.google.com";
-      }}
-      style={{
+    className="card-div"
+    onClick={() => {
+      location.href = "https://www.google.com";
+    }}
+    style={{
         cursor: "pointer",
         borderBottomRightRadius: 20,
         borderBottomLeftRadius: 20,
@@ -23,7 +25,7 @@ function Cardcomp(props) {
         height: "420px",
         transform: "translate(0px, 80px)",
       }}
-    >
+      >
       <br></br>
       <Typography
         variant="h4"
@@ -41,11 +43,12 @@ function Cardcomp(props) {
           fontSize: "17px",
           overflowWrap: "break-word",
         }}
-      >
+        >
         Set of tools for processing and computation of Continuous & Discrete
         time Signals.Engineering disciplines such as electrical engineering have advanced the design, study, and implementation of systems involving transmission, storage, and manipulation of information.
       </Typography>
     </div>
+        </div>
   );
 }
 export default Cardcomp;

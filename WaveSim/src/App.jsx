@@ -18,18 +18,31 @@ function App() {
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         <ButtonAppBar wrap="true" />
       </div>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div style={{ display: "flex", justifyContent:"center",flexWrap: "wrap" }}>
         <div >
           <Cardcomp
             bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
             title="Continuous Time Signals"
           />
         </div>
-        <div className="dt" style={{transform:"translate(60px, 0px)"}}>
+        <div >
+          <Cardcomp
+            bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
+            title="Continuous Time Signals"
+          />
+        </div>
+        <div >
+          <Cardcomp
+            bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(63, 87, 54, 0.5)),url(../src/assets/CT_bgi.jpg)"
+            title="Continuous Time Signals"
+          />
+        </div>
+        <div className="dt" >
           <Cardcomp
             bgim="linear-gradient(to bottom,rgba(15, 126, 94, 1), rgba(15, 126, 94, 0.5)),url(../src/assets/DT_bgi.jpg)"
             title="Discrete Time Signals"
           />
+
         </div>
       </div>
     </div>
