@@ -7,7 +7,6 @@ import Muiresponsive from "./Muiresponsive";
 import "./App.css";
 import "./index.css";
 import { Box, Typography } from "@mui/material";
-import bgimg from "./assets/bgimg.jpg";
 import MyComponent from "./Muiresponsive";
 import CombinedAll from "./Combined";
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom";

@@ -8,9 +8,6 @@ function Cardcomp(props) {
 
     <div
     className="card-div"
-    onClick={() => {
-      location.href = "https://www.google.com";
-    }}
     style={{
         cursor: "pointer",
         borderBottomRightRadius: 20,
@@ -23,13 +20,12 @@ function Cardcomp(props) {
         width: "300px",
         backgroundRepeat: "no-repeat",
         height: "420px",
-        transform: "translate(0px, 80px)",
       }}
       >
       <br></br>
-      <Typography
+      <center><Typography
         variant="h4"
-        style={{ color: "white", fontFamily: "Poppins" }}
+        style={{ color: "white", fontFamily: "Poppins", width:"270px" }}
         >
         {props.title}
                 <hr style={{
@@ -37,7 +33,7 @@ function Cardcomp(props) {
                   height:"1.5px", 
                   background:"white", 
                   transform:"translate(0px, -10px)"}}/>
-      </Typography>
+      </Typography></center>
       <Typography
         style={{
           color: "#e4e4e5",
@@ -47,7 +43,7 @@ function Cardcomp(props) {
           transform:"translate(0px, 30px)"
         }}
         >
-        {props.description}
+        <center>{props.description}</center>
       </Typography>
     </div>
         </div>
