@@ -17,7 +17,7 @@ function CombinedAll() {
         style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}
       >
         {/* CONT */}
-        <div 
+        <div  className="card-hover"
           onClick={()=>{
             window.location="/continuousTime";
                 }}>
@@ -39,7 +39,7 @@ function CombinedAll() {
             />
         </div>
             {/* DIGITAL */}
-        <div 
+        <div className="card-hover" 
           onClick={()=>{
             window.location="/continuousTime";
                 }}>
@@ -60,7 +60,7 @@ function CombinedAll() {
             />
         </div>
           {/* SYSTEM */}
-        <div 
+        <div className="card-hover"
           onClick={()=>{
             window.location="/continuousTime";
                 }}>

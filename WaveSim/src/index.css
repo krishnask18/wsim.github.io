@@ -38,4 +38,15 @@ body {
   /* background: "red"; */
   /* background-image: linear-gradient((to bottom left,#255959,20%, #021d21)); */
 /* } */
+.card-hover{
+  transition: all 0.4s ease;
+  /* transform: translate(0px, -200px); */
+}
+.card-hover:hover{
+  /* transform: translate(0px, -200px); */
+  transform: scale(1.04);
 
+  /* transition: 1s ease-in; */
+  /*  */
+
+}
