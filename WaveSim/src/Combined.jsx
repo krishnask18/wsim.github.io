@@ -30,8 +30,7 @@ function CombinedAll() {
                   {"\u25CF"} Tools for computation and visualisation of vaious
                   domain transformations for continuous time signals
                 </div>
-                <br />
-                <div>
+                <div style={{transform:"translate(0px, 15px)"}}>
                   {"\u25CF"} Animations of convolution custom signals
                 </div>
               </div>
@@ -49,10 +48,9 @@ function CombinedAll() {
             description={
               <div style={{width:"280px"}}>
                 <div>
-                  {"\u25CF"} Interepretetion & visualisation of DTFT, DFT, z Transform for discrete time & digital signals
+                  {"\u25CF"} Interepretetion & visualisation of DTFT, DFT, {"\u0396"} Transform for discrete time & digital signals
                 </div>
-                <br />
-                <div>
+                <div style={{transform:"translate(0px, 15px)"}}>
                   {"\u25CF"} Various types of convolutions & animations for Discrete time signals
                 </div>
               </div>
@@ -68,13 +66,15 @@ function CombinedAll() {
             bgim="linear-gradient(to bottom,rgba(150, 120, 15, 1), rgba(110, 90, 10, 0.5)),url(../src/assets/Sys_bgi.jpg)"
             title="System Analysis"
             description={
-              <div style={{width:"280px"}}>
+              <div style={{width:"270px"}}>
                 <div>
-                  {"\u25CF"} Interepretetion & visualisation of DTFT, DFT, z Transform for discrete time & digital signals
+                  {"\u25CF"} Design of system using TF, laplace variable, its analysis with s and {"\u03C9"} domain.
                 </div>
-                <br />
-                <div>
-                  {"\u25CF"} Various types of convolutions & animations for Discrete time signals
+                <div style={{transform:"translate(0px, 15px)"}}>
+                  {"\u25CF"} Visualisation of response for custom input signal for a system
+                </div>
+                <div style={{transform:"translate(0px, 25px)"}}>
+                  {"\u25CF"} Analysis of system with Root Locus, Routh-Hurtwiz criterion.
                 </div>
               </div>
             }
