@@ -14,7 +14,7 @@ import MyComponent from "./Muiresponsive";
 function ButtonAppBar() {
     
   return (
-    <div id="appbar">
+    <div id="appbar" style={{ display: "flex", flexWrap: "wrap" }}>
       <AppBar style={{ backgroundImage: "linear-gradient(to right,rgba(34, 63, 77, 1), rgba(1, 20, 28, 1))" }} wrap="true">
         <Toolbar>
           <img src={logo2} width={"64"} height={"64"} />

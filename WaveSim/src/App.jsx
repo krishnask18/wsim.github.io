@@ -10,14 +10,24 @@ import { Box, Typography } from "@mui/material";
 import bgimg from "./assets/bgimg.jpg";
 import MyComponent from "./Muiresponsive";
 import CombinedAll from "./Combined";
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ContinuousTime from "./ContinuousTime";
+
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
-        <CombinedAll/>
-    </div>
+    
+        <Router>
+            <ButtonAppBar/>
+            <Routes>
+              <Route path="/combinedAll" element={<CombinedAll/>}/>
+              <Route path="/continuousTime" element={<ContinuousTime/>}/>
+            </Routes>
+        </Router>
+        
+    
           
   );
 }
