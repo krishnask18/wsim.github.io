@@ -1,4 +1,4 @@
-import Cardcomp from "./Cardcomp";
+import Cardcomp from "../Cardcomp";
 
 function ContinuousTime()
 {

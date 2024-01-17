@@ -10,7 +10,7 @@ import { Box, Typography } from "@mui/material";
 import MyComponent from "./Muiresponsive";
 import CombinedAll from "./HomeCards";
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ContinuousTime from "./ContinuousTime";
+import ContinuousTime from "./CT/ContinuousTime";
 import HomeCards from "./HomeCards";
 
 
