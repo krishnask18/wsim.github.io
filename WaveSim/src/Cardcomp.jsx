@@ -17,7 +17,7 @@ function Cardcomp(props) {
         backgroundImage:
         props.bgim,
         objectFit:"cover",
-        width: "300px",
+        width: props.width,
         backgroundRepeat: "no-repeat",
         height: "420px",
       }}

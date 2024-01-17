@@ -21,7 +21,8 @@ function HomeCards() {
           onClick={()=>{
             window.location="/continuousTime";
                 }}>
-          <Cardcomp 
+          <Cardcomp
+            width="300px" 
             bgim="linear-gradient(to bottom,rgba(79, 112, 65, 1), rgba(55, 78, 49, 0.5)),url(../src/assets/CT_bgi.jpg)"
             title="Continuous Time Signals"
             cursor="pointer"
@@ -45,6 +46,7 @@ function HomeCards() {
             window.location="/continuousTime";
                 }}>
           <Cardcomp
+            width="300px"
             bgim="linear-gradient(to bottom,rgba(15, 126, 94, 1), rgba(10, 115, 86, 0.5)),url(../src/assets/DT_bgi.jpg)"
             title="Digital Signal Processing"
             cursor="pointer"
@@ -67,6 +69,7 @@ function HomeCards() {
             window.location="/continuousTime";
                 }}>
           <Cardcomp
+            width="300px"
             bgim="linear-gradient(to bottom,rgba(150, 120, 15, 1), rgba(110, 90, 10, 0.5)),url(../src/assets/Sys_bgi.jpg)"
             title="System Analysis"
             cursor="pointer"
@@ -92,6 +95,7 @@ function HomeCards() {
             window.location="/continuousTime";
                 }}>
           <Cardcomp
+            width="300px"
             bgim="linear-gradient(to bottom,rgba(136, 7, 38, 1), rgba(66, 7, 16, 0.5)),url(../src/assets/DC_bgi.jpg)"
             title="Digital Circuits Simulation"
             cursor="pointer"
@@ -111,8 +115,10 @@ function HomeCards() {
             }
           />
         </div>
-        <div><Cardcomp line="none"></Cardcomp></div>
-        <div><Cardcomp line="none"></Cardcomp></div>
+        <div><Cardcomp
+          width="300px" line="none"></Cardcomp></div>
+        <div><Cardcomp
+          width="300px" line="none"></Cardcomp></div>
       </div>
     </div>
   );

@@ -11,10 +11,11 @@ function ContinuousTime()
             window.location="";
                 }}>
           <Cardcomp
+          width="267px"
             bgim="linear-gradient(to bottom,rgba(76, 105, 152, 1), rgba(21, 47, 110,0.5)),url(../src/assets/DT_bg.jpg)"
             title="Fourier Transform"
             description={
-              <div style={{width:"280px"}}>
+              <div style={{width:"240px"}}>
                 <div>
                   {"\u25CF"} Interepretetion & visualisation of DTFT, DFT, {"\u0396"} Transform for discrete time & digital signals
                 </div>
@@ -31,10 +32,11 @@ function ContinuousTime()
             window.location="/continuousTime";
                 }}>
           <Cardcomp
+          width="267px"
             bgim="linear-gradient(to bottom,rgba(122, 106, 85, 1), rgba(92, 68, 55, 0.5)),url(../src/assets/DT_gi.jpg)"
             title="Fourier Series Visualization"
             description={
-              <div style={{width:"280px"}}>
+              <div style={{width:"240px"}}>
                 <div>
                   {"\u25CF"} Interepretetion & visualisation of DTFT, DFT, {"\u0396"} Transform for discrete time & digital signals
                 </div>
@@ -50,10 +52,11 @@ function ContinuousTime()
             window.location="/continuousTime";
                 }}>
           <Cardcomp
+          width="267px"
             bgim="linear-gradient(to bottom,rgba(103, 72, 110, 1), rgba(68, 15, 80, 0.5)),url(../src/assets/DT_bg.jpg)"
             title="Laplace Transform"
             description={
-              <div style={{width:"280px"}}>
+              <div style={{width:"240px"}}>
                 <div>
                   {"\u25CF"} Interepretetion & visualisation of DTFT, DFT, {"\u0396"} Transform for discrete time & digital signals
                 </div>
@@ -69,10 +72,11 @@ function ContinuousTime()
             window.location="/continuousTime";
                 }}>
           <Cardcomp
+          width="267px"
             bgim="linear-gradient(to bottom,rgba(81, 93, 69, 1), rgba(48, 70, 31, 0.5)),url(../src/assets/T_bgi.jpg)"
             title="Convolution Animation"
             description={
-              <div style={{width:"280px"}}>
+              <div style={{width:"240px"}}>
                 <div>
                   {"\u25CF"} Interepretetion & visualisation of DTFT, DFT, {"\u0396"} Transform for discrete time & digital signals
                 </div>
