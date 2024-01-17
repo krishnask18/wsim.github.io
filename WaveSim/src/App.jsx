@@ -8,9 +8,10 @@ import "./App.css";
 import "./index.css";
 import { Box, Typography } from "@mui/material";
 import MyComponent from "./Muiresponsive";
-import CombinedAll from "./Combined";
+import CombinedAll from "./HomeCards";
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ContinuousTime from "./ContinuousTime";
+import HomeCards from "./HomeCards";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Router>
             <ButtonAppBar/>
             <Routes>
-              <Route path="/combinedAll" element={<CombinedAll/>}/>
+              <Route path="/combinedAll" element={<HomeCards/>}/>
               <Route path="/continuousTime" element={<ContinuousTime/>}/>
             </Routes>
         </Router>

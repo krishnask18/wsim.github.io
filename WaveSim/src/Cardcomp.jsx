@@ -9,7 +9,7 @@ function Cardcomp(props) {
     <div
     className="card-div"
     style={{
-        cursor: "pointer",
+        cursor: props.cursor,
         borderBottomRightRadius: 20,
         borderBottomLeftRadius: 20,
         borderTopRightRadius: 20,
@@ -29,9 +29,10 @@ function Cardcomp(props) {
         >
         {props.title}
                 <hr style={{
-                  width:"250px", 
+                  width:"250px" , 
                   height:"1.5px", 
-                  background:"white", 
+                  background:"white",
+                  display:props.line, 
                   transform:"translate(0px, -10px)"}}/>
       </Typography></center>
       <Typography
